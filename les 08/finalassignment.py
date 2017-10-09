@@ -33,6 +33,8 @@ def omroepen_reis(stations, beginstation, eindstation):
     for i in range(indexBeginstation + 1,indexEindstation):
         print('- {}'.format(stations[i]))
     print('Jij stapt uit in: {}'.format(eindstation))
+
+
 stations = ['Schagen', 'Heerhugowaard', 'Alkmaar', 'Castricum', 'Zaandam', 'Amsterdam Sloterdijk', 'Amsterdam Centraal', 'Amsterdam Amstel', 'Utrecht Centraal', "’s-Hertogenbosch", 'Eindhoven', 'Weert','Roermond', 'Sittard','Maastricht' ]
 
 beginstation = inlezen_beginstation(stations)
